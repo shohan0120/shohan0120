@@ -6,11 +6,12 @@
   </a>
 </p>
 
-I am **SHOHAN**, a Software Quality Assurance Engineer from Bangladesh. I work at [**weDevs**](https://wedevs.com) on [**Dokan**](https://wordpress.org/plugins/dokan-lite/) — the multi-vendor marketplace plugin powering thousands of WooCommerce stores. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
+I am **SHOHAN**, a Software Quality Assurance Engineer from Bangladesh. I work at [**weDevs**](https://wedevs.com) on the **Dokan multi-vendor marketplace** ecosystem and the **StorePulse** product suite — tools powering thousands of WooCommerce stores. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
 
 Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 
-- 🏢 Currently working as an **SQA Engineer at weDevs** on Dokan plugin
+- 🏢 Currently working as an **SQA Engineer at weDevs**
+- 🧩 **Products I work on:** Dokan Multivendor plugin, Dokan Umbrella plugins, Dokan Mobile App, and StorePulse products (StoreGrowth, CartPulse, Conversion Tracking for WC, Texty)
 - 🧪 Focusing on **Playwright (TypeScript), REST API testing, and CI sharding & reporting**
 - 🤖 Exploring **AI-assisted QA workflows and performance testing**
 - 📍 Based in **Bangladesh**
@@ -19,9 +20,6 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shohan0120)
-
-[![Followers](https://img.shields.io/github/followers/shohan0120?label=Followers&style=flat)](https://github.com/shohan0120?tab=followers)
-![Profile Views](https://komarev.com/ghpvc/?username=shohan0120&label=Profile%20views&color=green&style=flat)
 
 ## What I Work On
 
@@ -69,8 +67,8 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shohan0120&show_icons=true&hide_border=true" alt="GitHub stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shohan0120&layout=compact&hide_border=true" alt="Top languages" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=shohan0120&show_icons=true&hide_border=true&cache_seconds=1800" alt="GitHub stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shohan0120&layout=compact&hide_border=true&cache_seconds=1800" alt="Top languages" height="160">
 </p>
 
 ## 🤝 Connect
