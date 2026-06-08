@@ -34,7 +34,7 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 
 ## 🏆 Achievements
 
-- ✅ Merged pull requests into the **getdokan/dokan** codebase, including CI reliability fixes
+- ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
 - 🧪 Built and maintained automated end-to-end test coverage for a production WooCommerce plugin
 - 🐛 Filed detailed, reproducible bug reports and test-case checklists used by the team
 - 🔧 Improved CI pipeline stability and reporting for a multi-vendor e-commerce platform
