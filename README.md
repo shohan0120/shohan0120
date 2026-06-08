@@ -7,11 +7,13 @@ I am **SHOHAN**, a Software Quality Assurance Engineer and automation tester fro
 Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 
 - 🏢 Currently working as an **SQA Engineer & Automation Tester at weDevs**
-- 🧩 **Products I work on:** Dokan Multivendor plugin, Dokan Umbrella plugins, Dokan Mobile App, WP ERP, and StorePulse products (StoreGrowth, CartPulse, Conversion Tracking for WC, Texty)
 - 🧪 Focusing on **Playwright (TypeScript), REST API testing, and CI sharding & reporting**
 - 🤖 Exploring **AI-assisted QA workflows and performance testing**
 - 📍 Based in **Bangladesh**
-
+- 🧩 **Products I work on:**
+  - 🛒 **Dokan** — Multivendor plugin, Umbrella plugins & Mobile App
+  - 💼 **WP ERP**
+  - 📈 **StorePulse** — StoreGrowth, CartPulse, Conversion Tracking for WC & Texty
 ## Find me on Social Platforms
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
