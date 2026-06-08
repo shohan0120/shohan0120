@@ -26,7 +26,7 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 | **Performance** | Load and performance testing for marketplace flows |
 | **Internal Tooling** | Tooling to streamline QA workflows and debugging |
 
-**Active contributor in [getdokan](https://github.com/getdokan)** — opening and merging pull requests and filing detailed, reproducible issues, mostly around E2E stability, CI infrastructure, and regression coverage.
+**Active contributor in [getdokan](https://github.com/getdokan) and [wp-erp](https://github.com/wp-erp)** — opening and merging pull requests and filing detailed, reproducible issues, mostly around E2E stability, CI infrastructure, and regression coverage. Recently had my end-to-end test suite merged into **wp-erp**.
 
 ## 🏆 Achievements
 
