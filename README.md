@@ -1,17 +1,17 @@
 <h1 align="center">Hey There 👋</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/shohanur-rahman-shohan/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
+<a href="https://www.linkedin.com/in/shohanur-rahman-shohan/">
+<img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
 </p>
 
-I am **SHOHAN**, a Software Quality Assurance Engineer from Bangladesh. I work at [**weDevs**](https://wedevs.com) on the **Dokan multi-vendor marketplace** ecosystem and the **StorePulse** product suite — tools powering thousands of WooCommerce stores. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
+I am **SHOHAN**, a Software Quality Assurance Engineer and automation tester from Bangladesh. I work at [**weDevs**](https://wedevs.com) on the **Dokan multi-vendor marketplace** ecosystem, the **StorePulse** product suite, and **WP ERP** — tools powering thousands of WooCommerce and WordPress sites. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
 
 Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 
-- 🏢 Currently working as an **SQA Engineer at weDevs**
-- 🧩 **Products I work on:** Dokan Multivendor plugin, Dokan Umbrella plugins, Dokan Mobile App, and StorePulse products (StoreGrowth, CartPulse, Conversion Tracking for WC, Texty)
+- 🏢 Currently working as an **SQA Engineer & Automation Tester at weDevs**
+- 🧩 **Products I work on:** Dokan Multivendor plugin, Dokan Umbrella plugins, Dokan Mobile App, WP ERP, and StorePulse products (StoreGrowth, CartPulse, Conversion Tracking for WC, Texty)
 - 🧪 Focusing on **Playwright (TypeScript), REST API testing, and CI sharding & reporting**
 - 🤖 Exploring **AI-assisted QA workflows and performance testing**
 - 📍 Based in **Bangladesh**
@@ -67,10 +67,10 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shohan0120&show_icons=true&hide_border=true&theme=default&count_private=true" alt="GitHub stats" height="165">
+<img src="https://github-readme-stats.vercel.app/api?username=shohan0120&show_icons=true&hide_border=true&theme=default&count_private=true" alt="GitHub stats" height="165">
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shohan0120&layout=compact&hide_border=true&theme=default" alt="Top languages" height="165">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shohan0120&layout=compact&hide_border=true&theme=default" alt="Top languages" height="165">
 </p>
 
 ## 🤝 Connect
