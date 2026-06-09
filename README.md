@@ -43,10 +43,6 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 
 ## ✅ Merged Pull Requests
 
-A live count of my merged pull requests across open-source repositories — automatically updated as new PRs are merged.
-
-[![Merged PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dtype%3Apr%2Bauthor%3Ashohan0120%2Bis%3Amerged&query=%24.total_count&label=Merged%20PRs&style=for-the-badge&color=2EAD33&logo=git&logoColor=white)](https://github.com/search?q=type%3Apr+author%3Ashohan0120+is%3Amerged&type=pullrequests)
-
 **[👉 View all my merged pull requests](https://github.com/search?q=type%3Apr+author%3Ashohan0120+is%3Amerged&type=pullrequests)**
 
 ## Tech Stack
