@@ -62,6 +62,20 @@ A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, bui
 | **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
 | **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
 
+## 🎟️ EventHub — Playwright E2E + API Automation Suite
+
+A personal showcase project: a production-style automation suite for the **EventHub** application, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report as an artifact.
+
+- 🧩 **Two layers, one suite** — UI journeys and API contract/validation tests share types, data, and config.
+- 🏗️ **Page Object Model** — every page is a class; specs read like English, with zero raw selectors.
+- 🔌 **Typed API client** — a fully-typed wrapper over Playwright's `APIRequestContext` with Bearer-token handling.
+- 🔐 **Authenticate once** — a setup project logs in and saves `storageState`; all UI specs reuse it.
+- 🎭 **Playwright best practices** — web-first auto-retrying assertions, role/`data-testid` locators, no hard waits, traces on failure.
+- 🌱 **Realistic, parallel-safe data** — `@faker-js/faker` generators produce unique data per test.
+- 🐞 **Bugs documented** — defects found during exploration are filed as GitHub-issue-style reports in `/bugs`.
+
+🔗 **[EventHub Automation Suite Github Actions CI/CD →](https://github.com/shohan0120/event-hub-test-suite)**
+
 ## 🏆 Achievements
 
 - ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
