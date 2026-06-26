@@ -1,5 +1,25 @@
 # Hey There 👋
 
+---
+
+<div align="center">
+
+### ⭐ 🎭 Dokan E2E & API Automation Suite — Highlights ⭐
+
+</div>
+
+**Highlights of my work:**
+
+- 🧱 **Black-box, folder-isolated architecture** — each feature owns its spec, page object, and test data, with no cross-folder imports.
+- 🌱 **Deterministic seeding** — vendors, customers, products, and modules are provisioned by setup projects before the test phase runs.
+- 🏷️ **Tag-driven Lite/Pro gating** (`@lite`, `@liteOnly`, `@pro`) so the suite runs cleanly on fork PRs without the Pro repository.
+- ⚡ **CI sharding & reporting** — 6-way parallelization plus storage-state authentication to eliminate per-test login cost.
+- 🐛 **Flake hunting at the source** — auto-dismiss handlers for the Pro 5.0 announcement modal and robust REST-auth patterns.
+
+🔗 **[Dokan Automation Suite Github Actions CI/CD →](https://github.com/getdokan/dokan/tree/develop/tests/pw)**
+
+---
+
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 
 I am **SHOHAN**, a Software Quality Assurance Engineer and automation tester from Bangladesh. I work at [**weDevs**](https://wedevs.com) on the **Dokan multi-vendor marketplace** ecosystem, the **StorePulse** product suite, and **WP ERP** — tools powering thousands of WooCommerce and WordPress sites. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
@@ -11,9 +31,10 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 - 🤖 Exploring **AI-assisted QA workflows and performance testing**
 - 📍 Based in **Bangladesh**
 - 🧩 **Products I work on:**
-  - 🛒 **Dokan** — Multivendor plugin, Umbrella plugins & Mobile App
-  - 💼 **WP ERP**
-  - 📈 **StorePulse** — StoreGrowth, CartPulse, Conversion Tracking for WC & Texty
+- 🛒 **Dokan** — Multivendor plugin, Umbrella plugins & Mobile App
+- 💼 **WP ERP**
+- 📈 **StorePulse** — StoreGrowth, CartPulse, Conversion Tracking for WC & Texty
+
 ## Find me on Social Platforms
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
@@ -41,16 +62,6 @@ A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, bui
 | **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
 | **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
 
-**Highlights of my work:**
-
-- 🧱 **Black-box, folder-isolated architecture** — each feature owns its spec, page object, and test data, with no cross-folder imports.
-- 🌱 **Deterministic seeding** — vendors, customers, products, and modules are provisioned by setup projects before the test phase runs.
-- 🏷️ **Tag-driven Lite/Pro gating** (`@lite`, `@liteOnly`, `@pro`) so the suite runs cleanly on fork PRs without the Pro repository.
-- ⚡ **CI sharding & reporting** — 6-way parallelization plus storage-state authentication to eliminate per-test login cost.
-- 🐛 **Flake hunting at the source** — auto-dismiss handlers for the Pro 5.0 announcement modal and robust REST-auth patterns.
-
-🔗 **[Explore the suite →](https://github.com/getdokan/dokan/tree/develop/tests/pw)**
-
 ## 🏆 Achievements
 
 - ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
@@ -69,27 +80,3 @@ A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, bui
 ## Tech Stack
 
 **Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
-
-**Testing & Automation**
-
-![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?&style=for-the-badge&logo=jest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?&style=for-the-badge&logo=postman&logoColor=white)
-
-**CI / CD & Tools**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?&style=for-the-badge&logo=github-actions&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-%2321759B.svg?&style=for-the-badge&logo=wordpress&logoColor=white)
-
-## 🤝 Connect
-
-- 💼 **Work:** [weDevs](https://wedevs.com)
-- 📦 **Product:** [Dokan Multivendor](https://wordpress.org/plugins/dokan-lite/)
-- 💼 **LinkedIn:** [shohanur-rahman-shohan](https://www.linkedin.com/in/shohanur-rahman-shohan/)
-- 💬 **GitHub:** [@shohan0120](https://github.com/shohan0120)
