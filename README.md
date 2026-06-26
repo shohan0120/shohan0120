@@ -62,9 +62,20 @@ A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, bui
 | **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
 | **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
 
-## 🎟️ EventHub — Playwright E2E + API Automation Suite
+---
 
-A personal showcase project: a production-style automation suite for the **EventHub** application, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report as an artifact.
+<div align="center">
+
+### 🎟️ EventHub — Playwright E2E + API Automation Suite
+
+![Personal Project](https://img.shields.io/badge/Personal_Project-Self--initiated-8957e5?style=for-the-badge&logo=github&logoColor=white) ![For Skill Showcase](https://img.shields.io/badge/Built_to-Showcase_Skills-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+
+</div>
+
+> [!NOTE]
+> **🌟 A personal, self-initiated side project** — built outside of work to showcase my automation skills (not a professional/company project like Dokan).
+
+A production-style automation suite for the **EventHub** application, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report as an artifact.
 
 - 🧩 **Two layers, one suite** — UI journeys and API contract/validation tests share types, data, and config.
 - 🏗️ **Page Object Model** — every page is a class; specs read like English, with zero raw selectors.
@@ -75,6 +86,8 @@ A personal showcase project: a production-style automation suite for the **Event
 - 🐞 **Bugs documented** — defects found during exploration are filed as GitHub-issue-style reports in `/bugs`.
 
 🔗 **[EventHub Automation Suite Github Actions CI/CD →](https://github.com/shohan0120/event-hub-test-suite)**
+
+---
 
 ## 🏆 Achievements
 
@@ -94,7 +107,6 @@ A personal showcase project: a production-style automation suite for the **Event
 ## Tech Stack
 
 **Languages**
-
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
