@@ -30,6 +30,27 @@ Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linke
 
 **Active contributor in [getdokan](https://github.com/getdokan) and [wp-erp](https://github.com/wp-erp)** — opening and merging pull requests and filing detailed, reproducible issues, mostly around E2E stability, CI infrastructure, and regression coverage. Recently had my end-to-end test suite merged into **wp-erp**.
 
+## 🎭 Dokan E2E & API Automation Suite
+
+A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, built on **Playwright + TypeScript**. It drives a real WordPress + WooCommerce + Dokan stack inside Docker (`@wordpress/env`) — no local PHP, MySQL, or WordPress install required.
+
+| Metric | Detail |
+| --- | --- |
+| **~1,300** | end-to-end tests |
+| **~400** | REST API tests (`/dokan/v1`, `/v2`, `/v3`) |
+| **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
+| **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
+
+**Highlights of my work:**
+
+- 🧱 **Black-box, folder-isolated architecture** — each feature owns its spec, page object, and test data, with no cross-folder imports.
+- 🌱 **Deterministic seeding** — vendors, customers, products, and modules are provisioned by setup projects before the test phase runs.
+- 🏷️ **Tag-driven Lite/Pro gating** (`@lite`, `@liteOnly`, `@pro`) so the suite runs cleanly on fork PRs without the Pro repository.
+- ⚡ **CI sharding & reporting** — 6-way parallelization plus storage-state authentication to eliminate per-test login cost.
+- 🐛 **Flake hunting at the source** — auto-dismiss handlers for the Pro 5.0 announcement modal and robust REST-auth patterns.
+
+🔗 **[Explore the suite →](https://github.com/getdokan/dokan/tree/develop/tests/pw)**
+
 ## 🏆 Achievements
 
 - ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
