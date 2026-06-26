@@ -89,6 +89,32 @@ A production-style automation suite for the **EventHub** application, covering b
 
 ---
 
+<div align="center">
+
+### 🛒 Client Dashboard ("Let's Shop") — Playwright E2E + API Automation Suite
+
+![Personal Project](https://img.shields.io/badge/Personal_Project-Self--initiated-8957e5?style=for-the-badge&logo=github&logoColor=white) ![For Skill Showcase](https://img.shields.io/badge/Built_to-Showcase_Skills-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+
+</div>
+
+> [!NOTE]
+> **🌟 A personal, self-initiated side project** — built outside of work to showcase my automation skills (not a professional/company project like Dokan).
+
+A production-style automation suite for the **Client Dashboard ("Let's Shop")** practice app, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report plus a job-summary table.
+
+- 🧩 **Two layers, one suite** — UI journeys and API contract/validation tests share types, data, and config.
+- 🏗️ **Page Object Model** — every page is a class; specs read like English, with zero raw selectors.
+- 🔌 **Typed API client** — a typed wrapper over Playwright's `APIRequestContext`, encoding the API's quirks (raw `authorization` token, `userId`-in-path endpoints).
+- 🔐 **Authenticate once** — a setup project logs in and saves `storageState`; UI specs reuse it, guest specs opt out explicitly.
+- 🎭 **Playwright best practices** — web-first auto-retrying assertions, role/label locators, no hard waits, traces/screenshots/video on failure.
+- 🌱 **Realistic, parallel-safe data** — `@faker-js/faker` generators produce unique data per test.
+- 🧪 **Happy + negative + edge coverage** — 65 tests (1 setup · 31 UI · 33 API), each traceable to a written `TEST-CASES.md` spec.
+- 🐞 **Bugs documented** — defects found during exploration are filed as GitHub-issue-style reports in `/bugs`.
+
+🔗 **[Client Dashboard Automation Suite Github Actions CI/CD →](https://github.com/shohan0120/client-dashboard-test-suite)**
+
+---
+
 ## 🏆 Achievements
 
 - ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
