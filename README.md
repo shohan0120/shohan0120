@@ -141,7 +141,6 @@ A production-style automation suite for the **Client Dashboard ("Let's Shop")** 
 **Testing & Automation**
 
 ![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?&style=for-the-badge&logo=jest&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?&style=for-the-badge&logo=postman&logoColor=white)
 
 **CI / CD & Tools**
