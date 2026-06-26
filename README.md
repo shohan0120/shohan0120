@@ -36,7 +36,7 @@ A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, bui
 
 | Metric | Detail |
 | --- | --- |
-| **~1,300** | end-to-end tests |
+| **~2,000+** | end-to-end tests |
 | **~400** | REST API tests (`/dokan/v1`, `/v2`, `/v3`) |
 | **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
 | **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
