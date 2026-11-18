@@ -1,158 +1,63 @@
-# Hey There 👋
+# Hi, I'm Shohan
 
----
+Senior SQA Engineer in Dhaka, Bangladesh. I test web, SaaS and AI products, and I build the automation that keeps them stable: Playwright + TypeScript end-to-end suites, API and performance tests, and the CI pipelines that run them.
 
-<div align="center">
+[![Portfolio](https://img.shields.io/badge/Portfolio-shohan--qa.vercel.app-D4F542?style=for-the-badge&labelColor=121410)](https://shohan-qa.vercel.app)
+[![CV](https://img.shields.io/badge/CV-Download_PDF-D4F542?style=for-the-badge&labelColor=121410)](https://shohan-qa.vercel.app/Shohanur_Rahman_Shohan_CV.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
 
-### ⭐ 🎭 Dokan E2E & API Automation Suite — Highlights ⭐
+## What I test
 
-</div>
+At [weDevs](https://wedevs.com) I test eight products and lead the test automation for Dokan.
 
-**Highlights of my work:**
-
-- 🧱 **Black-box, folder-isolated architecture** — each feature owns its spec, page object, and test data, with no cross-folder imports.
-- 🌱 **Deterministic seeding** — vendors, customers, products, and modules are provisioned by setup projects before the test phase runs.
-- 🏷️ **Tag-driven Lite/Pro gating** (`@lite`, `@liteOnly`, `@pro`) so the suite runs cleanly on fork PRs without the Pro repository.
-- ⚡ **CI sharding & reporting** — 6-way parallelization plus storage-state authentication to eliminate per-test login cost.
-- 🐛 **Flake hunting at the source** — auto-dismiss handlers for the Pro 5.0 announcement modal and robust REST-auth patterns.
-
-🔗 **[Dokan Automation Suite Github Actions CI/CD →](https://github.com/getdokan/dokan/tree/develop/tests/pw)**
-
----
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
-
-I am **SHOHAN**, a Software Quality Assurance Engineer and automation tester from Bangladesh. I work at [**weDevs**](https://wedevs.com) on the **Dokan multi-vendor marketplace** ecosystem, the **StorePulse** product suite, and **WP ERP** — tools powering thousands of WooCommerce and WordPress sites. I focus on end-to-end automation, CI test infrastructure, and performance testing. Day-to-day I write Playwright suites, harden GitHub Actions pipelines, and track down test flakiness at the source.
-
-Want to know more about me? [**Connect with me on LinkedIn.**](https://www.linkedin.com/in/shohanur-rahman-shohan/)
-
-- 🏢 Currently working as an **SQA Engineer & Automation Tester at weDevs**
-- 🧪 Focusing on **Playwright (TypeScript), REST API testing, and CI sharding & reporting**
-- 🤖 Exploring **AI-assisted QA workflows and performance testing**
-- 📍 Based in **Bangladesh**
-- 🧩 **Products I work on:**
-- 🛒 **Dokan** — Multivendor plugin, Umbrella plugins & Mobile App
-- 💼 **WP ERP**
-- 📈 **StorePulse** — StoreGrowth, CartPulse, Conversion Tracking for WC & Texty
-
-## Find me on Social Platforms
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shohanur-rahman-shohan/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shohan0120)
-
-## What I Work On
-
-| Area | Recent work |
+| Product | What it is |
 | --- | --- |
-| **E2E Automation** | Refactoring Dokan's Playwright suite for stability and reliable CI reporting |
-| **CI Hardening** | Improving GitHub Actions pipelines — caching, sharding, and quality reports |
-| **Performance** | Load and performance testing for marketplace flows |
-| **Internal Tooling** | Tooling to streamline QA workflows and debugging |
+| [Dokan](https://dokan.co/) | Multi-vendor marketplace platform, with an Android app |
+| [CartPilot](https://cartpilot.ai/) | AI shopping assistant (chat and voice) with a SaaS dashboard |
+| [TryAura](https://storepulse.co/plugins/tryaura/docs/) | AI virtual try-on for online stores |
+| [StoreGrowth](https://storepulse.co/plugins/storegrowth/) | Sales booster: upsells, BOGO offers, countdown timers |
+| [FlyCRM](https://flycrm.co/) | CRM with contacts, deal pipelines, quotes and invoices |
+| [FlyHR](https://flyhr.co/) | HR management: employee records, leave, attendance and payroll |
+| [weDocs](https://wedocs.co/) | Documentation and knowledge base with an AI chatbot |
+| [WP ERP](https://wperp.com/) | HR, CRM and accounting suite |
 
-**Active contributor in [getdokan](https://github.com/getdokan) and [wp-erp](https://github.com/wp-erp)** — opening and merging pull requests and filing detailed, reproducible issues, mostly around E2E stability, CI infrastructure, and regression coverage. Recently had my end-to-end test suite merged into **wp-erp**.
+## Dokan end-to-end and API suite
 
-## 🎭 Dokan E2E & API Automation Suite
+The QA gate for Dokan Lite and Pro, built with Playwright + TypeScript. It runs a real WordPress, WooCommerce and Dokan stack in Docker (`@wordpress/env`), so nobody needs PHP, MySQL or WordPress installed locally.
 
-A flagship project I work on: the official QA gate for **Dokan Lite & Pro**, built on **Playwright + TypeScript**. It drives a real WordPress + WooCommerce + Dokan stack inside Docker (`@wordpress/env`) — no local PHP, MySQL, or WordPress install required.
+- About **2,000 end-to-end tests** and **400 REST API tests** (`/dokan/v1`, `/v2`, `/v3`)
+- Covers the vendor dashboard (React, 5.0+), the admin React shell, Pro modules and the Lite storefront
+- Black-box, folder-isolated design: each feature owns its spec, page object and test data
+- Deterministic seeding: setup projects create vendors, customers, products and modules before any test runs
+- Tag-based Lite/Pro gating (`@lite`, `@liteOnly`, `@pro`), so fork PRs run cleanly without the Pro repo
+- 12 parallel CI shards with one Playwright worker each, which removed the "passes on rerun" flakes
+- Login state saved once and reused, and one merged HTML report per run
 
-| Metric | Detail |
-| --- | --- |
-| **~2,000+** | end-to-end tests |
-| **~400** | REST API tests (`/dokan/v1`, `/v2`, `/v3`) |
-| **Surfaces** | Vendor dashboard (React 5.0+), Admin React shell, Pro modules, Lite storefront |
-| **CI** | 6 parallel shards with merged HTML reporting via GitHub Actions |
+[Suite source and CI](https://github.com/getdokan/dokan/tree/develop/tests/pw)
 
----
+## Side projects
 
-<div align="center">
+Built outside work to show how I structure a suite. Both run their UI and API tests in parallel on GitHub Actions and publish an HTML report.
 
-### 🎟️ EventHub — Playwright E2E + API Automation Suite
+**[EventHub test suite](https://github.com/shohan0120/event-hub-test-suite)**
+E2E and REST API automation for the EventHub app: page objects, a typed API client with Bearer-token auth, one login reused through `storageState`, Faker test data, and bug reports in `/bugs`.
 
-![Personal Project](https://img.shields.io/badge/Personal_Project-Self--initiated-8957e5?style=for-the-badge&logo=github&logoColor=white) ![For Skill Showcase](https://img.shields.io/badge/Built_to-Showcase_Skills-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+**[Client Dashboard test suite](https://github.com/shohan0120/client-dashboard-test-suite)**
+65 tests (1 setup, 31 UI, 33 API) for the "Let's Shop" practice app, covering happy, negative and edge cases. Each test traces back to a written case in `TEST-CASES.md`.
 
-</div>
+## Open source
 
-> [!NOTE]
-> **🌟 A personal, self-initiated side project** — built outside of work to showcase my automation skills (not a professional/company project like Dokan).
+45 merged pull requests, mostly on Dokan's end-to-end suite and CI. Some highlights:
 
-A production-style automation suite for the **EventHub** application, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report as an artifact.
+- [dokan#3387](https://github.com/getdokan/dokan/pull/3387): Tier 1 E2E suite for the Stripe Connect revamp
+- [dokan#3294](https://github.com/getdokan/dokan/pull/3294): Stripe Express payment E2E suite
+- [dokan#3251](https://github.com/getdokan/dokan/pull/3251): Playwright suite for the redesigned admin dashboard
+- [dokan#3225](https://github.com/getdokan/dokan/pull/3225): E2E sharded across 12 CI workers
+- [dokan#3451](https://github.com/getdokan/dokan/pull/3451): CI guard that cancels superseded Pro runs
+- [wp-erp#1585](https://github.com/wp-erp/wp-erp/pull/1585): Playwright E2E and REST suite that replaced Codeception
 
-- 🧩 **Two layers, one suite** — UI journeys and API contract/validation tests share types, data, and config.
-- 🏗️ **Page Object Model** — every page is a class; specs read like English, with zero raw selectors.
-- 🔌 **Typed API client** — a fully-typed wrapper over Playwright's `APIRequestContext` with Bearer-token handling.
-- 🔐 **Authenticate once** — a setup project logs in and saves `storageState`; all UI specs reuse it.
-- 🎭 **Playwright best practices** — web-first auto-retrying assertions, role/`data-testid` locators, no hard waits, traces on failure.
-- 🌱 **Realistic, parallel-safe data** — `@faker-js/faker` generators produce unique data per test.
-- 🐞 **Bugs documented** — defects found during exploration are filed as GitHub-issue-style reports in `/bugs`.
+[See all merged PRs](https://github.com/search?q=type%3Apr+author%3Ashohan0120+is%3Amerged&type=pullrequests)
 
-🔗 **[EventHub Automation Suite Github Actions CI/CD →](https://github.com/shohan0120/event-hub-test-suite)**
+## Tools
 
----
-
-<div align="center">
-
-### 🛒 Client Dashboard ("Let's Shop") — Playwright E2E + API Automation Suite
-
-![Personal Project](https://img.shields.io/badge/Personal_Project-Self--initiated-8957e5?style=for-the-badge&logo=github&logoColor=white) ![For Skill Showcase](https://img.shields.io/badge/Built_to-Showcase_Skills-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-
-</div>
-
-> [!NOTE]
-> **🌟 A personal, self-initiated side project** — built outside of work to showcase my automation skills (not a professional/company project like Dokan).
-
-A production-style automation suite for the **Client Dashboard ("Let's Shop")** practice app, covering both the **browser (E2E)** and the **REST API** layers with **Playwright + TypeScript**. **GitHub Actions CI/CD integrated** — UI and API suites run in parallel and publish the HTML report plus a job-summary table.
-
-- 🧩 **Two layers, one suite** — UI journeys and API contract/validation tests share types, data, and config.
-- 🏗️ **Page Object Model** — every page is a class; specs read like English, with zero raw selectors.
-- 🔌 **Typed API client** — a typed wrapper over Playwright's `APIRequestContext`, encoding the API's quirks (raw `authorization` token, `userId`-in-path endpoints).
-- 🔐 **Authenticate once** — a setup project logs in and saves `storageState`; UI specs reuse it, guest specs opt out explicitly.
-- 🎭 **Playwright best practices** — web-first auto-retrying assertions, role/label locators, no hard waits, traces/screenshots/video on failure.
-- 🌱 **Realistic, parallel-safe data** — `@faker-js/faker` generators produce unique data per test.
-- 🧪 **Happy + negative + edge coverage** — 65 tests (1 setup · 31 UI · 33 API), each traceable to a written `TEST-CASES.md` spec.
-- 🐞 **Bugs documented** — defects found during exploration are filed as GitHub-issue-style reports in `/bugs`.
-
-🔗 **[Client Dashboard Automation Suite Github Actions CI/CD →](https://github.com/shohan0120/client-dashboard-test-suite)**
-
----
-
-## 🏆 Achievements
-
-- ✅ Merged pull requests into the **getdokan/dokan**, **wp-erp** codebase, including CI reliability fixes
-- 🧪 Built and maintained automated end-to-end test coverage for a production WooCommerce plugin
-- 🐛 Filed detailed, reproducible bug reports and test-case checklists used by the team
-- 🔧 Improved CI pipeline stability and reporting for a multi-vendor e-commerce platform
-
-## 🚧 In Progress
-
-- **CartPilot** — a project I'm currently building (details coming soon)
-
-## ✅ Merged Pull Requests
-
-**[👉 View all my merged pull requests](https://github.com/search?q=type%3Apr+author%3Ashohan0120+is%3Amerged&type=pullrequests)**
-
-## Tech Stack
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
-
-**Testing & Automation**
-
-![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23FF6C37.svg?&style=for-the-badge&logo=postman&logoColor=white)
-
-**CI / CD & Tools**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?&style=for-the-badge&logo=github-actions&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-%2321759B.svg?&style=for-the-badge&logo=wordpress&logoColor=white)
-
-## 🤝 Connect
-
-- 💼 **Work:** [weDevs](https://wedevs.com)
-- 📦 **Product:** [Dokan Multivendor](https://wordpress.org/plugins/dokan-lite/)
-- 💼 **LinkedIn:** [shohanur-rahman-shohan](https://www.linkedin.com/in/shohanur-rahman-shohan/)
-- 💬 **GitHub:** [@shohan0120](https://github.com/shohan0120)
+Playwright · TypeScript · JavaScript · REST APIs · Postman · k6 · JMeter · GitHub Actions · Docker · Appium · Claude Code · Playwright MCP
