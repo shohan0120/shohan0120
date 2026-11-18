@@ -39,11 +39,9 @@ The QA gate for Dokan Lite and Pro, built with Playwright + TypeScript. It runs 
 
 Built outside work to show how I structure a suite. Both run their UI and API tests in parallel on GitHub Actions and publish an HTML report.
 
-**[EventHub test suite](https://github.com/shohan0120/event-hub-test-suite)**
-E2E and REST API automation for the EventHub app: page objects, a typed API client with Bearer-token auth, one login reused through `storageState`, Faker test data, and bug reports in `/bugs`.
+**[EventHub test suite](https://github.com/shohan0120/event-hub-test-suite)** covers the EventHub app's UI and REST API with page objects, a typed API client with Bearer-token auth, one login reused through `storageState`, Faker test data, and bug reports in `/bugs`.
 
-**[Client Dashboard test suite](https://github.com/shohan0120/client-dashboard-test-suite)**
-65 tests (1 setup, 31 UI, 33 API) for the "Let's Shop" practice app, covering happy, negative and edge cases. Each test traces back to a written case in `TEST-CASES.md`.
+**[Client Dashboard test suite](https://github.com/shohan0120/client-dashboard-test-suite)** has 65 tests (1 setup, 31 UI, 33 API) for the "Let's Shop" practice app, covering happy, negative and edge cases. Each test traces back to a written case in `TEST-CASES.md`.
 
 ## Open source
 
